@@ -12,6 +12,8 @@ playwright install chromium
 
 # Run
 
+### Replace the placeholders with your username and password in the wifi_logger.py file.
+
 ```
 python3 wifi_logger.py
 ```
