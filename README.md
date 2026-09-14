@@ -47,12 +47,9 @@ WantedBy=multi-user.target
 # Reload daemon
 sudo systemctl daemon-reload
 
-# Start the service
-sudo systemctl start auto_login.service
+# Start the service and enable autostart at boot
+sudo systemctl enable --now auto_login.service
 
 # Check status
 sudo systemctl status auto_login.service
-
-# Start automatically at boot
-sudo systemctl enable auto_login.service
 ```
